@@ -5,9 +5,26 @@
         min-height: 50vh;
         display: flex;
         justify-content:center;
-        align-items: center;   
+        align-items: center;  
     }
-    .icon{
+
+    p{
+        font-size: 130px;
+        font-weight: bold;
+        color: white;
+        /* transform: rotate(-30deg) translateY(5%) translateX(-20%); */
+    }
+    #outside{
+        border: 1px ;
+        border-radius: 15px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        background-color: rgba(58,56,67,255);
+    }
+    #inside{
         margin: 10%;
         display: flex;
         justify-content:center;
@@ -18,19 +35,7 @@
         height: 100px;
         background-color: brown;
     }
-    p{
-        font-size: 100px;
-        font-weight: bold;
-        color: white;
-        transform: rotate(-30deg) translateY(25px);
+    #letter{
+        transform: rotate(-30deg) translateY(5%) translateX(-20%);  
     }
-    .outside{
-        border: 1px ;
-        border-radius: 15px;
-        width: 150px;
-        height: 150px;
-        display: flex;
-        justify-content: center;        
-        align-items: center;
-        background-color: rgba(58,56,67,255);
-    }
+.element		{ font-size:75px; position:absolute; }
